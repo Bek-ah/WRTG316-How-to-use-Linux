@@ -1,5 +1,4 @@
-# WRTG316-How-to-use-Linux
-## Welcome to the Linux Terminal!
+# Welcome to the Linux Terminal!
 ## Requirements
 A Linux terminal
 ## Steps
