@@ -9,22 +9,37 @@
 1. Move into folder (you know you are successful if it now shows the folder name next to the username)
    ```cd foldername```
    Note: to return to the previous layer ```cd ..```
+   ![error](screenshots/Screenshot2.png)
 
 1. Nano into a file ```nano filename.txt``` and type the following: ```print("Hello, World!")``` 
-Note: typing Nano creates the file, and opens it automatically 
+Note: typing Nano creates the file, and opens it automatically
+   ![error](screenshots/Screenshot3.png)
+
 1. Save (write out, which is ctrl O, and will open up a new menu ensuring you want to save it to that file name, just hit enter) and exit (ctrl X)
+      ![error](screenshots/Screenshot4.png)
+
 1. Run the code file ```python filename```
 Note: if you are concerned if your file saved, or forgot the name, type ```ls```
+   ![error](screenshots/Screenshot5.png)
+
 If the file didn't run this may be a good spot to link to troubleshooting, teaching them how to edit the file. Or! Optional steps below: editing the file 
 1. Editing the file to create your own message ```nano filename.txt```. Use the arrow keys to navigate into the end of the phrase “Hello World”. Delete Hello World, and type any message of your choice
 Note: running Nano on an existing file will not create a new one, rather edit the existing one
+   ![error](screenshots/Screenshot6.png)
+
 1. Save (write out), exit the file, and rerun the program, as done in steps 4 and 5
+      ![error](screenshots/Screenshot7.png)
+
 1. The next few steps handle moving folders and files. Exit current folder (explain why) 
 ```cd ..``` (ls done for demonstration purposes)
+   ![error](screenshots/Screenshot8.png)
 
 1. Create new folder ```mkdir newfoldername```
+   ![error](screenshots/Screenshot9.png)
 
 1. Move the old folder into the new one. ```mv /path/to/source_folder /path/to/destination/``` since in this example both folders are in the same file, the path is just ```mv oldfoldername newfoldername``` and maybe we just leave the code like that to make it simple
+   ![error](screenshots/Screenshot10.png)
+
 
 
 
