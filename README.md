@@ -1,4 +1,4 @@
-# Welcome to the Linux Terminal!
+# How to use the Linux Terminal
 ## Requirements
 A Linux terminal
 ## Steps
