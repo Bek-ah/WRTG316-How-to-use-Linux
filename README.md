@@ -1,5 +1,5 @@
 # WRTG316-How-to-use-Linux
-## Introduction **change title**
+## Welcome to the Linux Terminal!
 ## Requirements
 ## Steps
 1. Make the folder <mkdir foldername>
