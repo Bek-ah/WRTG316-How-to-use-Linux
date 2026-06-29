@@ -3,7 +3,7 @@
 ## Requirements
 ## Steps
 1. Make the folder ```mkdir foldername```
-   ```ls```
+   1. Type ```ls``` then press enter
    Note: ls lets you see the directory, this can be done at any time to ensure things are created
 
 1. Move into folder (you know you are successful if it now shows the folder name next to the username)
