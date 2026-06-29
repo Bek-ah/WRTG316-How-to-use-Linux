@@ -5,7 +5,7 @@
 1. Make the folder ```mkdir foldername```
    1. Type ```ls``` then press enter
    Note: ls lets you see the directory, this can be done at any time to ensure things are created
-
+   ![error](screenshots/Screenshot 2026-06-29 150700.png)
 1. Move into folder (you know you are successful if it now shows the folder name next to the username)
    ```cd foldername```
    Note: to return to the previous layer ```cd ..```
