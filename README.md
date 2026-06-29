@@ -34,5 +34,5 @@ Note: running Nano on an existing file will not create a new one, rather edit th
 ## Hazards Statements
 Do not use spaces, -, or * for file names or when using the command rm to remove your file.
 ## Survey
-![Survey Link](SurveyQR.png)  
+[![Survey Link](SurveyQR.png)](https://forms.gle/Uyh9GfeSEtA6TSXHA)  
 https://forms.gle/Uyh9GfeSEtA6TSXHA
