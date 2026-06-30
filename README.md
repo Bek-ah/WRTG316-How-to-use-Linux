@@ -11,25 +11,31 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 </body>
 
 ## Steps
-1. Make the folder
-   1. Type ```mkdir foldername``` then press ```enter```
-   1. Type ```ls``` then press ```enter``` <br>
+
+### 1\. Make a folder
+   1. Type ```mkdir name_of_your_folder``` then press ```enter```
+   2. Type ```ls``` then press ```enter```
    <details>
-   <summary>What does ls do?</summary>
-   ls lets you see the directory. You can use this command at any time to ensure that files and folders are created
+   <summary>Understanding the ls command</summary>
+      
+   ```ls``` displays the files in your current directory. <br>
+   You can use this command at any time to ensure files are created.
    </details>
    
    ![error](screenshots/Screenshot1.png)
-1. Move into folder
-   1. Type ```cd foldername``` (it should now show the folder name next to the username) <br>
+   
+### 2\. Move into folder
+   1. Type ```cd name_of_your_folder``` then press ```enter``` <br>
+      Your new directory is now displayed next to the username. <br>
    <details>
-   <summary>How to return to the parent folder?</summary>
-   To return to the parent folder, in this case the previous layer use ```cd ..```
+   <summary>Returning to the parent folder</summary>
+      
+   To return to the parent folder  type ```cd ..``` then press ```enter```
    </details>
 
    ![error](screenshots/Screenshot2.png)
 
-1. Create and Move Into a File
+### 3\. Create and Move Into a File
    1. Type ```nano filename.txt``` and press enter.
    1. Type the following text: ```print("Hello, World!")``` <br>
    <summary>What does nano do?</summary>
@@ -38,14 +44,14 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 
    ![error](screenshots/Screenshot3.png)
 
-1. Save and Exit
+### 4\. Save and Exit
    1. Save with Write Out by pressing ```ctrl``` then ```O``` (not 0) <br>
       Press enter when terminal asks if you want to save it to keep the file name
    1. Exit by pressing ctrl then X
 
        ![error](screenshots/Screenshot4.png)
 
-1. Run the Code
+### 5\. Run the Code
    1. Type the command ```python filename``` and press enter <br>
    <summary>How to find the file name?</summary>
    If you are concerned if your file saved, or forgot the name, type ```ls```
@@ -55,7 +61,7 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 
    If the file didn't run this may be a good spot to link to troubleshooting, teaching them how to edit the file. Or! Optional steps below: editing the file
    
-1. Editing the File to Create Your Own Message
+### 6\. Editing the File to Create Your Own Message
    1. Enter ```nano filename.txt```. Use the arrow keys to navigate into the end of the phrase “Hello World”. Delete Hello World, and then type any message of your choice <br>
    <summary>What does nano do?</summary>
    The command nano creates the file, and opens it automatically. Since a file with that name has already been created, it opens the file.
@@ -63,12 +69,12 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
    
    ![error](screenshots/Screenshot6.png)
 
-1. Save and Run
+### 7\. Save and Run
    1. Repeat steps 4 and 5
    
       ![error](screenshots/Screenshot7.png)
 
-1. Moving Folders and Files
+### 8\. Moving Folders and Files
    1. Exit current folder by entering
    ```cd ..```
       1. Enter ```ls``` to see the folder you have just exited
