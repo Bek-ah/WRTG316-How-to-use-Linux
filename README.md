@@ -7,11 +7,11 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 <body>
    <img align="right" src="https://github.com/user-attachments/assets/68d50096-b81d-4940-9117-503db9d2982a" style="height: 6em; vertical-align: middle" />
    A charged laptop with a Linux Terminal open<br/>
-   See <i>Troubleshooting</i> for computers without Linux Terminal support
 </body>
 
-## Steps
+See [Troubleshooting](#troubleshooting) for computers without Linux Terminal support
 
+## Steps
 ### 1\. Make a folder
    1. Type ```mkdir name_of_your_folder``` then press ```enter```
    <details>
@@ -69,7 +69,7 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 
    ![error](screenshots/Screenshot5.png)
 
-   See <i>Troubleshooting</i> for help with error messages
+   See [Troubleshooting](#troubleshooting) for help with error messages such as ```command not found``` or ```syntax error```
    <br>
    <br>
    
