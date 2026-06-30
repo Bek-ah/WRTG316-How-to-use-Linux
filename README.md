@@ -83,12 +83,11 @@ Once you are logged in you can click the ```>_``` icon in the top right.
 
 
 
-## Comments, notes, and examples
 ## Conclusion
 You have now learned basic file manipulation in Linux! <br>
 There is a lot to explore, and if you would like to learn more then you can try playing this game: [linuxsurvival.com](https://linuxsurvival.com/)
 ## Troubleshooting
-## Hazards Statements
+## Caution
 Do not use spaces, -, or * for file names or when using the command ```rm``` to remove your file.
 ## Survey
 [![Survey Link](SurveyQR.png)](https://forms.gle/Uyh9GfeSEtA6TSXHA)  
