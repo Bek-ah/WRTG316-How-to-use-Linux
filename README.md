@@ -1,12 +1,14 @@
 # How to use the Linux Terminal
 This instruction guide will help you learn some command-line basics!
 
-Knowing how to use the command line is a powerful skill. It provides you with fast, efficient file management that you can use in complicated tasks, like moving thousands of specific files at once from one folder to another. You can also log into another computer remotely, or install, run and edit software. And it works on almost any comuter!
+Knowing how to use the command line is a powerful skill. It provides you with fast, efficient file management that you can use in complicated tasks, like moving thousands of specific files at once from one folder to another. You can also log into another computer remotely, or install, run and edit software. And it works on almost any computer!
 
 ## Requirements
-A charged laptop with a Linux Terminal open
-_See Troubleshooting for computers without Linux Terminal Support_
-<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/68d50096-b81d-4940-9117-503db9d2982a" />
+<body>
+   <img align="right" src="https://github.com/user-attachments/assets/68d50096-b81d-4940-9117-503db9d2982a" style="height: 6em; vertical-align: middle" />
+   A charged laptop with a Linux Terminal open<br/>
+   See <i>Troubleshooting</i> for computers without Linux Terminal support
+</body>
 
 ## Steps
 1. Make the folder
