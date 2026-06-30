@@ -114,7 +114,7 @@ Once you are logged in you can click the ```>_``` icon in the top right.
 
  2.
 python filename doesn't work
-Troubleshooting step 5, you don't have python. I had to use python3 to make sure the command worked
+Troubleshooting step 5, you don't have python. I had to use python3 on my macbook pro to make sure the command worked
 <img width="377" height="33" alt="image" src="https://github.com/user-attachments/assets/65337764-4538-4f17-a921-66179d447133" />
 
 3. 
