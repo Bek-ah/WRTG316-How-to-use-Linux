@@ -1,10 +1,12 @@
 # How to use the Linux Terminal
-This instruction guide will help you learn some Linux basics!
-## Requirements
-A Linux terminal
+This instruction guide will help you learn some command-line basics!
 
-If you do not have a linux terminal on your computer, you can also go to this website: [cylabacademy](https://learn.cylabacademy.org/) <br>
-Once you are logged in you can click the ```>_``` icon in the top right.
+Knowing how to use the command line is a powerful skill. It provides you with fast, efficient file management that you can use in complicated tasks, like moving thousands of specific files at once from one folder to another. You can also log into another computer remotely, or install, run and edit software. And it works on almost any comuter!
+
+## Requirements
+A charged laptop with a Linux Terminal open
+_See Troubleshooting for computers without Linux Terminal Support_
+<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/68d50096-b81d-4940-9117-503db9d2982a" />
 
 ## Steps
 1. Make the folder
@@ -87,6 +89,15 @@ Once you are logged in you can click the ```>_``` icon in the top right.
 You have now learned basic file manipulation in Linux! <br>
 There is a lot to explore, and if you would like to learn more then you can try playing this game: [linuxsurvival.com](https://linuxsurvival.com/)
 ## Troubleshooting
+writing316 username and password for cylabacademy
+
+If you do not have a linux terminal on your computer, you can also go to this website: [cylabacademy](https://learn.cylabacademy.org/) <br>
+Once you are logged in you can click the ```>_``` icon in the top right.
+
+"The webshell is intended only for solving CyLab Security Academy
+ challenges. Any other usage is a violation of our terms and conditions."
+python filename doesn't work
+
 ## Caution
 Do not use spaces, -, or * for file names or when using the command ```rm``` to remove your file.
 ## Survey
