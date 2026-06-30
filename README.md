@@ -60,21 +60,24 @@ Once you are logged in you can click the ```>_``` icon in the top right.
    ![error](screenshots/Screenshot6.png)
 
 1. Save and Run
-   1. Repeat steps 4 and 5\
+   1. Repeat steps 4 and 5
    
       ![error](screenshots/Screenshot7.png)
 
 1. Moving Folders and Files
    1. Exit current folder by entering
    ```cd ..```
-      1. Enter ```ls``` to see the folder you have just exited\
-   ![error](screenshots/Screenshot8.png)
+      1. Enter ```ls``` to see the folder you have just exited
+         
+      ![error](screenshots/Screenshot8.png)
 
-   1. Create new folder by entering ```mkdir newfoldername```\
-   ![error](screenshots/Screenshot9.png)
+   1. Create new folder by entering ```mkdir newfoldername```
+      
+      ![error](screenshots/Screenshot9.png)
 
    1. Move the old folder into the new one by entering ```mv /path/to/source_folder /path/to/destination/``` <br>
-      Since in this example both folders are in the same file, the path is just ```mv oldfoldername newfoldername```\
+      Since in this example both folders are in the same file, the path is just ```mv oldfoldername newfoldername```
+      
       ![error](screenshots/Screenshot10.png)
 
 
