@@ -53,7 +53,7 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
        ![error](screenshots/Screenshot4.png)
 
 ### 5\. Run the Code
-   1. Type the command ```python filename``` and press enter <br>
+   1. Type the command ```python filename.txt``` and press enter <br>
    <details>
    <summary>Finding your filename</summary>
    
@@ -104,25 +104,26 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 ## Conclusion
 You have now learned basic file manipulation in Linux! <br>
 There is a lot to explore, and if you would like to learn more then you can try playing this game: [linuxsurvival.com](https://linuxsurvival.com/)
+
 ## Troubleshooting
-1. 
-writing316 username and password for cylabacademy account created
-If you do not have a linux terminal on your computer, you can also go to this website: [cylabacademy](https://learn.cylabacademy.org/) <br>
-Once you are logged in you can click the ```>_``` icon in the top right.
-"The webshell is intended only for solving CyLab Security Academy
- challenges. Any other usage is a violation of our terms and conditions."
+#### Problem: No Linux Terminal on your computer
+Solution: If you do not have a linux terminal on your computer, you can go to this website: [cylabacademy](https://learn.cylabacademy.org/) <br>
+Log in with "writing316" as your username and password. <br>
+Once you are logged in you can click the ```>_``` icon in the top right. <br>
+You should now be able to practice with the terminal!
 
- 2.
-python filename doesn't work
-Troubleshooting step 5, you don't have python. I had to use python3 on my macbook pro to make sure the command worked
-<img width="377" height="33" alt="image" src="https://github.com/user-attachments/assets/65337764-4538-4f17-a921-66179d447133" />
+#### Problem: ```python``` keyword from step 5 isn't working
+Solution: For certain machines, like a macbook pro, the ```python``` command is outdated. Try ```python3``` instead. <br>
+<img alt="image" src="https://github.com/user-attachments/assets/65337764-4538-4f17-a921-66179d447133" />
 
-3. 
-Troubleshooting step 5, you didn't type the words correctly. 
-zsh: command not found: python
+#### Problem: Syntax or name error after using the command outlined in step 5
+Solution: If you get a syntax error or name error after using the command ```python3 name_of_your_file.txt```, <br>
+make sure you typed out the sentence exactly as shown in step 3. You may not have typed ```print``` correctly or <br>
+forgot symbols like these: ```()""```
 
 ## Caution
 Do not use spaces, -, or * for file names or when using the command ```rm``` to remove your file.
+
 ## Survey
 [![Survey Link](SurveyQR.png)](https://forms.gle/Uyh9GfeSEtA6TSXHA)  
 https://forms.gle/Uyh9GfeSEtA6TSXHA
