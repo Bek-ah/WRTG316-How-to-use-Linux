@@ -99,8 +99,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
       
       ![error](screenshots/Screenshot9.png)
 
-   1. Move the old folder into the new one by typing ```mv /path/to/source_folder /path/to/destination/``` and pressing ```enter```<br>
-      Since in this example both folders are in the same file, the path is just ```mv oldfoldername newfoldername```
+   1. Move the old folder into the new one by typing ```mv oldfoldername newfoldername```
       
       ![error](screenshots/Screenshot10.png)
 
