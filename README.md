@@ -25,7 +25,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    ![error](screenshots/Screenshot1.png)
    <br>
    <br>
-### 2\. Move into folder
+### 2\. Move into directory
    1. Type ```cd name_of_your_folder``` then press ```enter``` <br>
    Your new directory is now displayed next to the username. <br>
    <details>
@@ -89,7 +89,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    <br>
    <br>
 
-### 8\. Moving Folders and Files
+### 8\. Moving directories and Files
    1. Exit current directory with the ```cd ..``` command
       1. Use the  ```ls``` command to see the directory you have just exited
          
