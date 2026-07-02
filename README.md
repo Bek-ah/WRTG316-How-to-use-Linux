@@ -12,7 +12,7 @@ Knowing how to use the command line is a powerful skill. It provides you with fa
 See [Troubleshooting](#troubleshooting) for computers without Linux Terminal support
 
 ## Steps
-### 1\. Make a folder
+### 1\. Make a directory
    1. Type ```mkdir name_of_your_folder``` then press ```enter```
    <details>
    <summary>Using ls to check directory contents</summary>
@@ -90,16 +90,16 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    <br>
 
 ### 8\. Moving Folders and Files
-   1. Exit current folder with the ```cd ..``` command
-      1. Use the  ```ls``` command to see the folder you have just exited
+   1. Exit current directory with the ```cd ..``` command
+      1. Use the  ```ls``` command to see the directory you have just exited
          
       ![error](screenshots/Screenshot8.png)
 
-   1. Create new folder with the ```mkdir newfoldername``` command from step 1
+   1. Create new directory with the ```mkdir newfoldername``` command from step 1
       
       ![error](screenshots/Screenshot9.png)
 
-   1. Move the old folder into the new one by typing ```mv oldfoldername newfoldername```
+   1. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```
       
       ![error](screenshots/Screenshot10.png)
 
@@ -107,7 +107,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    <summary>Checking your work</summary>
       
    Remember, you can use ```cd name_of_your_folder```, ```cd ..```, and the ```ls``` command <br>
-   to move in and out of folders, display folder contents, and ensure your folder was moved correctly.
+   to move in and out of directories, display directory contents, and ensure your directory was moved correctly.
    </details>
 
 
