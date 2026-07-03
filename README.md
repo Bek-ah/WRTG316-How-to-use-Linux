@@ -13,12 +13,17 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
 
 ## Steps
 ### 1\. Make a directory
-   1. Type ```mkdir name_of_your_folder``` then press ```enter```
+   1. Type ```mkdir ```, a name for your folder you are creating, then press ```enter```
+      If I waned to name my folder "recipies" I would type ```mkdir recipies```
+
+      *mkdir: stands for "make directory", and is used to create folders*
    <details>
    <summary>Using ls to check directory contents</summary>
       
    Type ```ls``` then press ```enter``` <br>
-   ```ls``` displays the files in your current directory. <br>
+   
+   *ls: displays the files in your current directory/folder.* <br>
+   
    You can use this command at any time to ensure files are created or moved correctly.
    </details>
    
@@ -26,12 +31,18 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    <br>
    <br>
 ### 2\. Move into directory
-   1. Type ```cd name_of_your_folder``` then press ```enter``` <br>
+   1. Type ```cd ```, and then the name of the folder you created, then press ```enter``` <br>
+   If my folder was named "example" I would type ```cd example```
+
+   *cd: stands for "change directory", and is used to navigate through folders* <br>
+   
    Your new directory is now displayed next to the username. <br>
    <details>
    <summary>Returning to the parent folder</summary>
       
    To return to the parent folder  type ```cd ..``` then press ```enter```
+
+   *cd ..: the " .." after cd tells the system to go to the parent folder, or folder containing the one you are in currently*
    </details>
 
    ![error](screenshots/Screenshot2.png)
