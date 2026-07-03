@@ -3,6 +3,13 @@ This instruction guide will help you learn some command-line basics!
 
 Knowing how to use the command line is a powerful skill. It provides you with fast, efficient file management that you can use in complicated tasks, like moving thousands of specific files at once from one folder to another. You can also log into another computer remotely, or install, run and edit software. And it works on almost any computer!
 
+Note for using these instructions: Throughout these instructions there are dropdown menus that contain tips or helpful information. To view these, simply click the triangle icon.
+
+<details>
+   <summary>Example Dropdown Menu</summary>
+      Good work! If you are stuck on a step, the tips may prove helpful.
+   </details>
+
 ## Requirements
 <body>
    <img align="right" src="https://github.com/user-attachments/assets/68d50096-b81d-4940-9117-503db9d2982a" style="height: 6em; vertical-align: middle" />
