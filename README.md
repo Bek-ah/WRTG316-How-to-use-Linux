@@ -14,7 +14,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
 ## Steps
 ### 1\. Make a directory
    1. Type ```mkdir ```, a name for your folder you are creating, then press ```enter``` <br>
-      If I waned to name my folder "recipies" I would type ```mkdir recipies```
+      If I wanted to name my folder "recipies" I would type ```mkdir recipies```
 
       *mkdir: stands for "make directory", and is used to create folders*
    <details>
