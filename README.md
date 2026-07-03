@@ -49,12 +49,14 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    <br>
    <br>
 ### 3\. Create and Move Into a File
-   1. Type ```nano filename.txt``` then press ```enter```<br><br>
+   1. Type ```nano "" ```, a file name of your choice inside those quotation marks (ending in .txt to ensure it is a text file) then press ```enter```<br><br>
+   If I were to name the file "shopping list" I would type ```nano "shopping list.txt" <br>
+   
    1. Type the following text: ```print("Hello, World!")``` <br>
    <details>
    <summary>Understanding the nano command</summary>
       
-   ```nano``` creates a file and opens it automatically. If a file with that name has already been created, it opens the file.
+   *nano: creates a file and opens it automatically. If a file with that name has already been created, it opens the file.*
    </details>
 
    ![error](screenshots/Screenshot3.png)
@@ -64,18 +66,21 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    1. Save with ```WriteOut``` by pressing ```ctrl + o``` (not zero.) <br>
       Terminal is now giving you the option to save it with the same file name      
       Press ```enter``` again to replace the file. <br><br>
-   1. Exit by pressing ```ctrl + x```
+   1. Exit by pressing ```ctrl + x``` (think e**x**it)
 
        ![error](screenshots/Screenshot4.png)
    <br>
    <br>
 
 ### 5\. Run the Code
-   1. Type the command ```python filename.txt``` and press enter <br>
+   1. Type the command ```python "filename.txt"```, filename.txt being whatever you named your text file previously, and press enter <br>
+
+   *python: this tells the terminal to run the text file like a python script. It works here because the print("Hello World") from earlier is a python command*
    <details>
    <summary>Finding your filename</summary>
    
    If you are concerned whether your file saved or forgot the name, use the ```ls``` command from the first step. 
+   *ls: stands for "list" and is used to list the file directory*
    </details>
 
    ![error](screenshots/Screenshot5.png)
@@ -85,9 +90,9 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    <br>
    
 ### 6\. Editing the File to Create Your Own Message
-   1. Type ```nano filename.txt``` then press ```enter```<br><br>
+   1. Type ```nano "filename.txt"```, again replacing filename.txt with whatever your filename is, then press ```enter```<br><br>
    2. Use the arrow keys to navigate into the end of the phrase “Hello World”.<br><br>
-   3. Delete Hello World, and then type any message of your choice. <br><br>
+   3. Delete Hello World, and then type any message of your choice. Ensure your message stays within the quotation marks that contained Hello World.<br><br>
    
    ![error](screenshots/Screenshot6.png)
    <br>
@@ -106,11 +111,13 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
          
       ![error](screenshots/Screenshot8.png)
 
-   1. Create new directory with the ```mkdir newfoldername``` command from step 1
+   1. Create new directory with the ```mkdir newfoldername``` command from step 1. newfoldername being whatever you wish your folder to be called.
       
       ![error](screenshots/Screenshot9.png)
 
-   1. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```
+   1. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the respective new and old folders
+
+      *mv: stands for "move" and is used to move files and folders around. It is always the item to be moved, followed by where it should be moved to.*
       
       ![error](screenshots/Screenshot10.png)
 
