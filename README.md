@@ -42,7 +42,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
    
 ### 2\. Move in and out of directory
    1. Type ```cd ```, and then the name of the directory you created, then press ```enter``` <br>
-      If my directory was named "example" I would type ```cd example```
+      If my directory was named "example" I would type ```cd example``` <br>
       Your new directory is now displayed next to the username. 
 
       *cd: stands for "change directory", and is used to navigate through directories* <br>
@@ -59,7 +59,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
 
    
 ### 3\. Create and Move Into a File using the Nano command
-   1. Type ```nano ```, a file name of your choice (ending in .txt to ensure it is a text file) then press ```enter```<br><br>
+   1. Type ```nano ```, a file name of your choice (ending in .txt to ensure it is a text file) then press ```enter```<br>
       If I were to name the file "shopping list" I would type ```nano "shopping list.txt" <br>
       
       <img src="screenshots/colored nano create and open file.png" width="55%"/>   
@@ -72,7 +72,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
 
       <img src="screenshots/colored nano ide.png" width ="75%"/>   
    
-### 4\. Save and Exit
+### 4\. Save and Exit Nano File
    1. Save with ```WriteOut``` by pressing ```ctrl + o``` (not zero.) <br>
       Terminal is now giving you the option to save it with the same file name      
       Press ```enter``` again to replace the file. 
@@ -84,62 +84,55 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
 ### 5\. Run the Code
    1. Type the command ```python "filename.txt"```, filename.txt being whatever you named your text file previously, and press enter <br>
 
-   *python: this tells the terminal to run the text file like a python script. It works here because the print("Hello World") from earlier is a       python command*
-   
-   <details>
-   <summary>Finding your filename</summary>
-   
-   If you are concerned whether your file saved or forgot the name, use the ```ls``` command from the first step. 
-   *ls: stands for "list" and is used to list the file directory*
-   </details>
+      *python: this tells the terminal to run the text file like a python script. <br>
+      It works here because the print("Hello World") from earlier is a python command*
 
-   ![error](screenshots/Screenshot5.png)
+      <img src="screenshots/colored python command.png" width ="50%"/>
+      <br><br>
+      
+      <details>
+      <summary>Finding your filename</summary>
+   
+      If you are concerned whether your file saved or forgot the name, use the ```ls``` command from the first step. 
+      *ls: stands for "list" and is used to list the file directory*
+      </details>
 
-   See [Troubleshooting](#troubleshooting) for help with error messages such as ```command not found``` or ```syntax error```
-   <br>
-   <br>
+      See [Troubleshooting](#troubleshooting) for help with error messages such as ```command not found``` or ```syntax error``
    
 ### 6\. Editing the File to Create Your Own Message
-   1. Type ```nano "filename.txt"```, again replacing filename.txt with whatever your filename is, then press ```enter```<br><br>
-   2. Use the arrow keys to navigate into the end of the phrase “Hello World”.<br><br>
-   3. Delete Hello World, and then type any message of your choice. Ensure your message stays within the quotation marks that contained Hello World.<br><br>
+   1. Type ```nano "filename.txt"```, again replacing filename.txt with whatever your filename is, then press ```enter```<br>
+      Use the arrow keys to navigate into the end of the phrase “Hello World”.<br>
+      Delete Hello World, and then type any message of your choice. <br>
+      Ensure your message stays within the quotation marks that contained Hello World.
    
-   ![error](screenshots/Screenshot6.png)
-   <br>
-   <br>
+      <img src="screenshots/colored new text nano ide.png" width ="75%"/>   
 
 ### 7\. Save and Run New Message
    1. Repeat steps 4 and 5
-   
-      ![error](screenshots/Screenshot7.png)
-   <br>
-   <br>
+
+      <img src="screenshots/colored python command updated text.png" width ="75%"/>   
 
 ### 8\. Moving directories and Files
    1. Exit current directory with the ```cd ..``` command
-      1. Use the  ```ls``` command to see the directory you have just exited
          
-      ![error](screenshots/Screenshot8.png)
+      <img src="screenshots/colored cd ...png" width ="45%"/>   
 
-   1. Create new directory with the ```mkdir newfoldername``` command from step 1. newfoldername being whatever you wish your folder to be called.
+   2. Create a new directory with the ```mkdir ``` command from step 1.
+
+      <img src="screenshots/colored mkdir second folder.png" width ="55%"/>   
+
+   3. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the       respective new and old folders
+
+      *mv: stands for "move" and is used to move files and folders around. It is always the item to be moved, followed by where it should be            moved to.*
+
+      <img src="screenshots/colored mv.png" width ="70%"/>
       
-      ![error](screenshots/Screenshot9.png)
+      <details>
+      <summary>Renaming your files</summary>
+         Move command can also be used to rename files
 
-   1. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the respective new and old folders
-
-      *mv: stands for "move" and is used to move files and folders around. It is always the item to be moved, followed by where it should be moved to.*
-      
-      ![error](screenshots/Screenshot10.png)
-
-   <details>
-   <summary>Checking your work</summary>
-      
-   Remember, you can use ```cd name_of_your_folder```, ```cd ..```, and the ```ls``` command <br>
-   to move in and out of directories, display directory contents, and ensure your directory was moved correctly.
-   </details>
-
-
-
+         *insert colored screenshot here*
+      </details>
 
 ## Conclusion
 You have now learned basic file manipulation in Linux! <br>
