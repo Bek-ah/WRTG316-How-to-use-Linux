@@ -3,16 +3,16 @@ This instruction guide will help you learn some command-line basics!
 
 Knowing how to use the command line is a powerful skill. It provides you with fast, efficient file management that you can use in complicated tasks, like moving thousands of specific files at once from one folder to another. You can also log into another computer remotely, or install, run and edit software. And it works on almost any computer!
 
-Note for using these instructions: Throughout these instructions there are dropdown menus that contain tips or helpful information. To view these, simply click the triangle icon.
+Note for using these instructions: Throughout these instructions there are dropdown menus that contain tips or helpful information. To view these, simply click the triangle icon. If you are in split screen, you may have to click on the triangle icon twice. 
 
 <details>
    <summary>Example Dropdown Menu</summary>
-      Good work! If you are stuck on a step, the tips may prove helpful.
+      Good work! If you are stuck on a step, these tips can help.
    </details>
 
 ## Requirements
 <body>
-   <img align="right" src="https://github.com/user-attachments/assets/68d50096-b81d-4940-9117-503db9d2982a" style="height: 6em; vertical-align: middle" />
+   <img align="right" src="" style="height: 6em; vertical-align: middle" />
    A charged laptop with a Linux Terminal open<br/>
 </body>
 
@@ -21,7 +21,7 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
 ## Steps
 ### 1\. Make a directory
    1. Type ```mkdir ```, a name for your folder you are creating, then press ```enter``` <br>
-      If I wanted to name my folder "recipies" I would type ```mkdir recipies```
+      If I wanted to name my folder "recipes" I would type ```mkdir recipes```
 
       *mkdir: stands for "make directory", and is used to create folders*
    <details>
@@ -158,6 +158,10 @@ Solution: If you get a syntax error or name error after using the command ```pyt
 make sure you typed out the sentence exactly as shown in step 3. You may not have typed ```print``` correctly or <br>
 forgot symbols like these: ```()""```
 <br><br>
+
+#### Problem: can't open file '/Users/sbennion/Desktop/writing316/test/helloworld.txt': [Errno 2] No such file or directory
+Make sure you spelled the name of your file correctly. To see what it's spelled, try using the ls command
+
 ## Caution
 Do not use spaces, -, or * for file names or when using the command ```rm``` to remove your file.
 
