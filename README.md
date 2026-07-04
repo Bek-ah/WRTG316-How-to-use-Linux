@@ -24,65 +24,68 @@ See [Troubleshooting](#troubleshooting) for computers without Linux Terminal sup
       If I wanted to name my folder "recipes" I would type ```mkdir recipes```
 
       *mkdir: stands for "make directory", and is used to create folders*
-   <details>
-   <summary>Using ls to check directory contents</summary>
+
+      <img src="screenshots/colored mkdir.png" width="50%"/>
+      <br><br>
       
-   Type ```ls``` then press ```enter``` <br>
-   
-   *ls: displays the files in your current directory/folder.* <br>
-   
-   You can use this command at any time to ensure files are created or moved correctly.
-   </details>
-   
-   ![error](screenshots/Screenshot1.png)
-   <br>
-   <br>
-### 2\. Move into directory
-   1. Type ```cd ```, and then the name of the folder you created, then press ```enter``` <br>
-   If my folder was named "example" I would type ```cd example```
+      <details>
+      <summary>Using ls to check directory contents</summary>
 
-   *cd: stands for "change directory", and is used to navigate through folders* <br>
+      Type ```ls``` then press ```enter``` <br>
+      You can use this command at any time to ensure files are created or moved correctly.
+
+      *ls: displays the files in your current directory/folder.* <br>
    
-   Your new directory is now displayed next to the username. <br>
-   <details>
-   <summary>Returning to the parent folder</summary>
+      <img src="screenshots/colored ls.png" width="33%"/>
+      </details>
+   
+   
+### 2\. Move in and out of directory
+   1. Type ```cd ```, and then the name of the directory you created, then press ```enter``` <br>
+      If my directory was named "example" I would type ```cd example```
+      Your new directory is now displayed next to the username. 
+
+      *cd: stands for "change directory", and is used to navigate through directories* <br>
+
+      <img src="screenshots/colored cd.png" width="50%"/>   
+
+   2. To go back into the parent directory, type ```cd ..``` then press ```enter```
+
+      *.. is the shortcut for "parent directory", or the directory containing the one you are in currently*
+
+      <img src="screenshots/colored cd ...png" width="44%"/>   
+
+   3. Move back into your directory to get ready for the next step 
+
+   
+### 3\. Create and Move Into a File using the Nano command
+   1. Type ```nano ```, a file name of your choice (ending in .txt to ensure it is a text file) then press ```enter```<br><br>
+      If I were to name the file "shopping list" I would type ```nano "shopping list.txt" <br>
       
-   To return to the parent folder  type ```cd ..``` then press ```enter```
-
-   *cd ..: the " .." after cd tells the system to go to the parent folder, or folder containing the one you are in currently*
-   </details>
-
-   ![error](screenshots/Screenshot2.png)
-   <br>
-   <br>
-### 3\. Create and Move Into a File
-   1. Type ```nano "" ```, a file name of your choice inside those quotation marks (ending in .txt to ensure it is a text file) then press ```enter```<br><br>
-   If I were to name the file "shopping list" I would type ```nano "shopping list.txt" <br>
+      <img src="screenshots/colored nano create and open file.png" width="55%"/>   
    
-   1. Type the following text: ```print("Hello, World!")``` <br>
-   <details>
-   <summary>Understanding the nano command</summary>
-      
-   *nano: creates a file and opens it automatically. If a file with that name has already been created, it opens the file.*
-   </details>
+   2. Type the following text: ```print("Hello, World!")``` <br>
 
-   ![error](screenshots/Screenshot3.png)
-   <br>
-   <br>
+      *nano: a simple text editor you can use to create, view or modify files.* <br>
+      *If nano "file name" doesn't exist, nano will create a new file and open it* <br>
+      *If it does exist, it will just open it.*
+
+      <img src="screenshots/colored nano ide.png" width ="75%"/>   
+   
 ### 4\. Save and Exit
    1. Save with ```WriteOut``` by pressing ```ctrl + o``` (not zero.) <br>
       Terminal is now giving you the option to save it with the same file name      
-      Press ```enter``` again to replace the file. <br><br>
-   1. Exit by pressing ```ctrl + x``` (think e**x**it)
+      Press ```enter``` again to replace the file. 
 
-       ![error](screenshots/Screenshot4.png)
-   <br>
-   <br>
+      <img src="screenshots/colored nano writeOut.png" width ="75%"/>   
+      
+   2. Exit by pressing ```ctrl + x``` (think e**x**it)
 
 ### 5\. Run the Code
    1. Type the command ```python "filename.txt"```, filename.txt being whatever you named your text file previously, and press enter <br>
 
-   *python: this tells the terminal to run the text file like a python script. It works here because the print("Hello World") from earlier is a python command*
+   *python: this tells the terminal to run the text file like a python script. It works here because the print("Hello World") from earlier is a       python command*
+   
    <details>
    <summary>Finding your filename</summary>
    
