@@ -40,7 +40,7 @@ This can make it difficult to modify the right file, and may cause you delete ot
       <br>
       
       <details>
-      <summary>Using ls to check directory contents</summary>
+      <summary>What does "ls" do?  Using ls to check directory contents</summary>
 
       Type ```ls``` then press ```enter``` <br>
       You can use this command at any time to ensure files are created or moved correctly.
@@ -112,7 +112,7 @@ This can make it difficult to modify the right file, and may cause you delete ot
       <br>
       
       <details>
-      <summary>Finding your filename</summary>
+      <summary>How do you find your filename?</summary>
    
       If you are concerned whether your file saved or forgot the name, use the ```ls``` command from the first step. 
       *```ls```: stands for "list" and is used to list the file directory*
@@ -153,11 +153,12 @@ This can make it difficult to modify the right file, and may cause you delete ot
       *```mv```: stands for "move" and is used to move files and folders around. It is always the item to be moved, followed by where it should be            moved to.*
 
       <img src="screenshots/colored mv.png" width ="70%"/>
-      
-      <details>
-      <summary>Renaming your files</summary>
-         Move command can also be used to rename files
 
+      <br>
+      <details>
+      <summary>How do I rename my files?</summary>
+         The move command can not only move a file, but it can also rename a file.
+      
          *insert colored screenshot here*
       </details>
       <br>
