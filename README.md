@@ -182,15 +182,26 @@ You should now be able to practice with the terminal!
 <br>
 <br>
 
-#### Problem: Syntax or name error after using the command outlined in step 5
-Solution: If you get a syntax error or name error after using the command ```python3 name_of_your_file.txt```, <br>
-make sure you typed out the sentence exactly as shown in step 3. You may not have typed ```print``` correctly or <br>
-forgot symbols like these: ```()""```
+#### Problem: Command not found
+Solution: Make sure you spelled the command correctly as found in the step, and 
+included the command before your file or directory in your instruction to the terminal.
+If ```python``` or ```python3``` doesn't work, try using the other command. 
+
+Here's a couple examples:
+
+<img src="screenshots/command not found.png" width ="70%"/>
+
+<img src="screenshots/forgot command.png" width = "70%" />
+
+<img src="screenshots/more python problems.png" width = "70%" />
 <br>
 <br>
 
-#### Problem: can't open file '/Users/sbennion/Desktop/writing316/test/helloworld.txt': [Errno 2] No such file or directory
-Make sure you spelled the name of your file correctly. To see what it's spelled, try using the ```ls``` command
+#### Problem: No such file or directory
+   <img src="screenshots/no such file problem.png" width ="70%"/>
+   Solution: Make sure your file exists and you spelled it correctly. 
+   You can do that conveniently using the ```ls``` command.
+   <img src="screenshots/no such file fixed.png" width="70%" />
 <br>
 <br>
 
