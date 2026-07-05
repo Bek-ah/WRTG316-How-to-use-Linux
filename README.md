@@ -193,7 +193,7 @@ Here's a couple examples:
 
 <img src="screenshots/forgot command.png" width = "70%" />
 
-<img src="screenshots/more python problems.png" width = "70%" />
+<img src="screenshots/colored python command.png" width = "70%" />
 <br>
 <br>
 
