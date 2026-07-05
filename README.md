@@ -16,7 +16,7 @@ Note for using these instructions: Throughout these instructions there are dropd
    A charged laptop with a Linux Terminal open<br/>
 </body>
 
-*See [Troubleshooting](#troubleshooting) for computers without Linux Terminal support*
+*See [Troubleshooting](#problem-no-linux-terminal-on-your-computer) for computers without Linux Terminal support*
 <br>
 <br>
 
@@ -76,10 +76,13 @@ This can make it difficult to modify the right file, and may cause you delete ot
 ### 3\. Create and Move Into a File using the Nano command
    1. Type ```nano ```, a file name of your choice (ending in .txt to ensure it is a text file) then press ```enter```<br>
       If I were to name the file "shopping list" I would type ```nano "shopping list.txt" <br>
-      
-      <img src="screenshots/colored nano create and open file.png" width="55%"/>   
+
+
+      <img src="screenshots/colored nano create and open file.png" width="55%"/>
+
+      See [Troubleshooting](#problem-command-not-found) if you run into a ```command not found``` error
    
-   2. Type the following text: ```print("Hello, World!")``` <br>
+   1. Type the following text: ```print("Hello, World!")``` <br>
 
       *nano: a simple text editor you can use to create, view or modify files.* <br>
       *If ```nano "file name"``` doesn't exist, nano will create a new file and open it* <br>
@@ -121,7 +124,6 @@ This can make it difficult to modify the right file, and may cause you delete ot
       *```ls```: stands for "list" and is used to list the file directory*
       </details>
 
-      *See [Troubleshooting](#troubleshooting) for help with error messages such as ```command not found``` or ```syntax error```*
       <br>
       <br>
    
@@ -151,11 +153,13 @@ This can make it difficult to modify the right file, and may cause you delete ot
 
       <img src="screenshots/colored mkdir second folder.png" width ="55%"/>   
 
-   3. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the       respective new and old folders
+   3. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the respective new and old folders
 
       *```mv```: stands for "move" and is used to move files and folders around. It is always the item to be moved, followed by where it should be            moved to.*
 
       <img src="screenshots/colored mv.png" width ="70%"/>
+
+      See [Troubleshooting](#problem-no-such-file-or-directory) if you run into a ```No such file or directory``` error
 
       <br>
       <details>
