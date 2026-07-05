@@ -107,6 +107,9 @@ This can make it difficult to modify the right file, and may cause you delete ot
       *python: this tells the terminal to run the text file like a python script. <br>
       It works here because the ```print("Hello World")``` from earlier is a python command*
 
+      **Caution:** certain operating systems don't recognize the python command, as shown in the screenshot below.
+      In this case, use the command ```python3``` instead. 
+
       <img src="screenshots/colored python command.png" width ="50%"/>
       <br>
       <br>
@@ -178,11 +181,7 @@ Once you are logged in you can click the ```>_``` icon in the top right. <br>
 You should now be able to practice with the terminal!
 <br>
 <br>
-#### Problem: ```python``` keyword from step 5 isn't working
-Solution: For certain machines, like a macbook pro, the ```python``` command is outdated. Try ```python3``` instead. <br>
-<img alt="image" src="https://github.com/user-attachments/assets/65337764-4538-4f17-a921-66179d447133" />
-<br>
-<br>
+
 #### Problem: Syntax or name error after using the command outlined in step 5
 Solution: If you get a syntax error or name error after using the command ```python3 name_of_your_file.txt```, <br>
 make sure you typed out the sentence exactly as shown in step 3. You may not have typed ```print``` correctly or <br>
