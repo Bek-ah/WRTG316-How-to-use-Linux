@@ -22,9 +22,14 @@ Note for using these instructions: Throughout these instructions there are dropd
 
 ## Caution
 Do not use spaces, ```-```, or ```*``` when naming files or when using the command ```rm``` to remove your file.
-
+<body>
+   <img align="right" src="/screenshots/caution_sign.png" style="height: 6em;" />
+</body>
 This can make it difficult to modify the right file, and may cause you delete other important files.
 
+
+<br>
+<br>
 <br>
 
 
