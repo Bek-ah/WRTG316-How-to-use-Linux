@@ -144,7 +144,7 @@ This can make it difficult to modify the right file, and may cause you delete ot
       <br>
       <br>
 
-### 8\. Moving directories and Files
+### 8\. Preparing for the move command
    1. Exit current directory with the ```cd ..``` command
          
       <img src="screenshots/colored cd ...png" width ="45%"/>   
@@ -153,7 +153,8 @@ This can make it difficult to modify the right file, and may cause you delete ot
 
       <img src="screenshots/colored mkdir second folder.png" width ="55%"/>   
 
-   3. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the respective new and old folders
+### 9\. Moving directories and Files
+   1. Move the old directory into the new one by typing ```mv oldfoldername newfoldername```, replacing oldfoldername and newfolder name with the respective new and old folders
 
       *```mv```: stands for "move" and is used to move files and folders around. It is always the item to be moved, followed by where it should be            moved to.*
 
