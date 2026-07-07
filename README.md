@@ -118,7 +118,7 @@ This can make it difficult to modify the right file, and may cause you delete ot
       **Caution:** certain operating systems don't recognize the python command, as shown in the screenshot below.
       In this case, use the command ```python3``` instead. 
 
-      <img src="screenshots/colored python command.png" width ="50%"/>
+      <img src="screenshots/colored python command.png" width ="60%"/>
       <br>
       <br>
       
@@ -145,7 +145,7 @@ This can make it difficult to modify the right file, and may cause you delete ot
 ### 7\. Save and Run New Message
    1. Repeat steps 4 and 5
 
-      <img src="screenshots/colored python command updated text.png" width ="75%"/>
+      <img src="screenshots/colored python command updated text.png" width ="80%"/>
       <br>
       <br>
 
@@ -199,25 +199,25 @@ If ```python``` or ```python3``` doesn't work, try using the other command. Here
 
 ```mkdir``` command is misspelled as ```mkfolder```.
 
-<img src="screenshots/command not found.png" width ="70%"/>
+<img src="screenshots/command not found.png" width ="55%"/>
 
 The user forgot to include ```cd``` before the directory name.
 
-<img src="screenshots/forgot command.png" width = "70%" />
+<img src="screenshots/forgot command.png" width = "55%" />
 
 ```python``` should be replaced with ```python3```.
 
-<img src="screenshots/colored python command.png" width = "70%" />
+<img src="screenshots/colored python command.png" width = "55%" />
 <br>
 <br>
 
 #### Problem: No such file or directory
 
-   <img src="screenshots/no such file problem.png" width ="70%"/>
+   <img src="screenshots/no such file problem.png" width ="80%"/>
    Solution: Make sure your file exists and you spelled it correctly. 
    You can do that conveniently using the ```ls``` command.
    <br><br>
-   <img src="screenshots/no such file fixed.png" width="70%" />
+   <img src="screenshots/no such file fixed.png" width="60%" />
 <br>
 <br>
 
