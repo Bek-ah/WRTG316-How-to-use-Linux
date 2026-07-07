@@ -10,6 +10,9 @@ Note for using these instructions: Throughout these instructions there are dropd
       Good work! If you are stuck on a step, these tips can help.
    </details>
 
+### Navigating Linux
+Linux functions slightly differently than your regular computer. The mouse cannot be used to click items or navigate. Instead, the arrow keys are used. To delete text, use the left and right arrow keys to navigate to the section you want removed, and use the delete key to remove it. If you ever get stuck in navigation, or you don't think you are currently on the bottom line, hit enter. Enter will run any commands on your current line and drop you back to the bottom of the page. All code given in these instructions is perfeclty fine to be run multiple times, so hitting enter will not cause any issues.
+
 ## Requirements
 <body>
    <img align="right" src="/screenshots/Terminal_icon.jpg" style="height: 6em; vertical-align: middle" />
