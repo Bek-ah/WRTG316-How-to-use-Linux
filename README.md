@@ -195,22 +195,28 @@ You should now be able to practice with the terminal!
 #### Problem: Command not found
 Solution: Make sure you spelled the command correctly as found in the step, and 
 included the command before your file or directory in your instruction to the terminal.
-If ```python``` or ```python3``` doesn't work, try using the other command. 
+If ```python``` or ```python3``` doesn't work, try using the other command. Here's a couple examples:
 
-Here's a couple examples:
+```mkdir``` command is misspelled as ```mkfolder```.
 
 <img src="screenshots/command not found.png" width ="70%"/>
 
+The user forgot to include ```cd``` before the directory name.
+
 <img src="screenshots/forgot command.png" width = "70%" />
+
+```python``` should be replaced with ```python3```.
 
 <img src="screenshots/colored python command.png" width = "70%" />
 <br>
 <br>
 
 #### Problem: No such file or directory
+
    <img src="screenshots/no such file problem.png" width ="70%"/>
    Solution: Make sure your file exists and you spelled it correctly. 
    You can do that conveniently using the ```ls``` command.
+   <br><br>
    <img src="screenshots/no such file fixed.png" width="70%" />
 <br>
 <br>
