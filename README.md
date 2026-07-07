@@ -167,13 +167,13 @@ This can make it difficult to modify the right file, and may cause you delete ot
 
       See [Troubleshooting](#problem-no-such-file-or-directory) if you run into a ```No such file or directory``` error
 
-      <br>
       <details>
       <summary>How do I rename my files?</summary>
-         The move command can not only move a file, but it can also rename a file.
-      
-         *insert colored screenshot here*
-      </details>
+         
+         The ```mv``` command can also be used to rename files. Simply move your file to another file name that doesn't exist in the current directory. Here's an example, using ```ls``` to show directory contents. ```example_folder``` is renamed to ```example_directory```.
+         <br><br>
+         <img src="screenshots/colored rename.png" width ="70%"/>
+            </details>
       <br>
       <br>
 
